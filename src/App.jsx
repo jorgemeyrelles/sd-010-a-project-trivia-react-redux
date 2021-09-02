@@ -16,7 +16,7 @@ function App() {
       <Route exact path="/triviagame/ranking" component={ Ranking } />
       <Route exact path="/triviagame/feedback" component={ Feedback } />
       <Route exact path="/triviagame/settings" component={ Settings } />
-      {/* <Route path="*" component={ NotFound } /> */}
+      <Route path="*" component={ NotFound } />
     </Switch>
   );
 }
