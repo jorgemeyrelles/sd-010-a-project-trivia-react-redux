@@ -9,7 +9,7 @@ class NotFound extends Component {
         <div className="d-flex justify-content-center align-items-center">
           <div className="error" />
         </div>
-        <form action="triviagame/">
+        <form action="/">
           <button type="submit" className="btn-error">Voltar ao Início</button>
         </form>
       </div>
