@@ -11,12 +11,12 @@ import './App.css';
 function App() {
   return (
     <Switch>
-      <Route exact path="https://jorgemeyrelles.github.io/triviagame/" component={ Login } />
-      <Route exact path="/questions" component={ Questions } />
-      <Route exact path="/ranking" component={ Ranking } />
-      <Route exact path="/feedback" component={ Feedback } />
-      <Route exact path="/settings" component={ Settings } />
-      <Route path="*" component={ NotFound } />
+      <Route exact path="/triviagame/" component={ Login } />
+      <Route exact path="/triviagame/questions" component={ Questions } />
+      <Route exact path="/triviagame/ranking" component={ Ranking } />
+      <Route exact path="/triviagame/feedback" component={ Feedback } />
+      <Route exact path="/triviagame/settings" component={ Settings } />
+      {/* <Route path="*" component={ NotFound } /> */}
     </Switch>
   );
 }
