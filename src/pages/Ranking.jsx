@@ -21,7 +21,7 @@ class Ranking extends Component {
   render() {
     const { ranking } = this.props;
     const { redirectToLogin } = this.state;
-    if (redirectToLogin) return <Redirect to="/" />;
+    if (redirectToLogin) return <Redirect to="/triviagame/" />;
     return (
       <div className="container box-accent box-feedback">
         <h1 data-testid="ranking-title"> Ranking </h1>

@@ -58,8 +58,8 @@ class Login extends Component {
 
   render() {
     const { redirectPlay, redirectSettings } = this.state;
-    if (redirectPlay) return <Redirect to="/questions" />;
-    if (redirectSettings) return <Redirect to="/settings" />;
+    if (redirectPlay) return <Redirect to="/triviagame/questions" />;
+    if (redirectSettings) return <Redirect to="/triviagame/settings" />;
     return (
       <section className="container login-container">
         <Button

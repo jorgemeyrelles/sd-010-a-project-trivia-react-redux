@@ -83,8 +83,8 @@ class Feedback extends Component {
   render() {
     const { player: { score, assertions } } = this.props;
     const { redirectToLogin, redirectToRanking } = this.state;
-    if (redirectToLogin) return <Redirect to="/" />;
-    if (redirectToRanking) return <Redirect to="/ranking" />;
+    if (redirectToLogin) return <Redirect to="/triviagame/" />;
+    if (redirectToRanking) return <Redirect to="/triviagame/ranking" />;
     return (
       <>
         <Header />

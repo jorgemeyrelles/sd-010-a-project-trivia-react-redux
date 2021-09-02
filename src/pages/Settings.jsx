@@ -89,7 +89,7 @@ class Settings extends Component {
     const { categories, save } = this.state;
 
     if (save) {
-      return <Redirect to="/" />;
+      return <Redirect to="/triviagame/" />;
     }
 
     return (

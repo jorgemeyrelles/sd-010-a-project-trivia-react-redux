@@ -139,7 +139,7 @@ class Questions extends Component {
     const { questions, questionIndex, selected, redirectToFeedback } = this.state;
 
     if (redirectToFeedback) {
-      return <Redirect to="/feedback" />;
+      return <Redirect to="/triviagame/feedback" />;
     }
 
     return (
